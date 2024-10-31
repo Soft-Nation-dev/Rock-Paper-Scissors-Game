@@ -5,21 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock-Paper-Scissors</title>
     <link rel="stylesheet" href="Rockpaperscissors.css">
-      <link rel="icon" href="Images/cropped-1676289956623.jpg" type="image/jpg">
+      <link rel="icon" href="Images/cropped-1676289956623.jpg" type="image/png">
 </head>
 <body>
 <h1>
     Rock Paper Scissors
 </h1>
-<button class="rbutton" onclick="playGame('rock');"><img class="rimages" src="Images/rock-emoji.png" alt=""></button>
+<button class="rbutton js-rbutton"><img class="rimages" src="Images/rock-emoji.png" alt=""></button>
 
-<button class="rbutton" onclick="playGame('paper');"><img class="rimages" src="Images/paper-emoji.png" alt=""></button>
+<button class="rbutton js-pbutton"><img class="rimages" src="Images/paper-emoji.png" alt=""></button>
 
-<button class="rbutton" onclick="playGame('scissors');"><img class="rimages" src="Images/scissors-emoji.png" alt=""></button>
+<button class="rbutton js-sbutton"><img class="rimages" src="Images/scissors-emoji.png" alt=""></button>
 <p class="js-move"></p>
 <p class="js-result result"></p>
 <p class="js-score"></p>
-<button class="reset-button" onclick="reset()">Reset Scores</button>
+<button class="reset-buttonn js-reset">Reset Scores</button>
+<button class="autoplay-button js-autoplay">Auto Play </button>
+<div class="qdiv"></div>
 <script src="Rockpapaerscissors.js"></script>
 </body>
 </html>
